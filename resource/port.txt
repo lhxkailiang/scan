@@ -1,0 +1,10 @@
+# Nmap 6.47 scan initiated Wed Apr 15 13:31:27 2015 as: nmap -sT -sV -p 21,22,80,443,873,2601,2604,3128,4440,6082,6379,8000,8008,8080,8081,8088,8090,8099,8888,9000,9090,9200,11211,27017,28017 --max-hostgroup 10 --max-parallelism 10 --max-rtt-timeout 1000ms --host-timeout 800s --max-scan-delay 2000ms -oN port.txt --open 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000025s latency).
+Not shown: 24 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.0p1 Debian 4+deb7u2 (protocol 2.0)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at http://nmap.org/submit/ .
+# Nmap done at Wed Apr 15 13:31:27 2015 -- 1 IP address (1 host up) scanned in 0.13 seconds
